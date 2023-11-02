@@ -8,7 +8,7 @@ score_2 = []
 for i in range(T):
     lst = input().split(' ')
     if lst[2] == 'P':
-        pass
+        continue
     else:
         hack = float(lst[1]) * float(dic[lst[2]])
         hap = float(lst[1])
